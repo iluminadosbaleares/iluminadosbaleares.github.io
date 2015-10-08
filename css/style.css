@@ -154,7 +154,7 @@ span.bb-bottom-right {
 }
 
 b, strong {
-    font-weight: 400;
+    /*font-weight: 400;*/
 }
 
 .col-md-offset-1point5{
