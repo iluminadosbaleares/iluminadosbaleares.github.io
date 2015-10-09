@@ -1269,7 +1269,7 @@ ul.social-icons li a {
     }
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
     .logo {
         font-size: 48px;
         top: 0;
@@ -1281,4 +1281,4 @@ ul.social-icons li a {
         font-size: 52px;
         top: 0;
     }
-}
+}*/
