@@ -1252,3 +1252,28 @@ ul.social-icons li a {
         padding: 5px 0px;
     }
 }
+
+/* Fer que el logo hi càpiga! */
+
+.logo {
+    font-size: 18px;
+    top: 18px;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        font-size: 42px;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo {
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        font-size: 52px;
+    }
+}
