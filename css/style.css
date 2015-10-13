@@ -1262,10 +1262,10 @@ ul.social-icons li a {
     margin: 0;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 400px) {
     .logo {
-        font-size: 26px;
-        top: 12px;
+        font-size: 22px;
+        top: 14px;
     }
 }
 
