@@ -1262,6 +1262,20 @@ ul.social-icons li a {
     margin: 0;
 }
 
+@media (min-width: 480px) {
+    .logo {
+        font-size: 26px;
+        top: 12px;
+    }
+}
+
+@media (min-width: 480px) {
+    .logo {
+        font-size: 26px;
+        top: 12px;
+    }
+}
+
 @media (min-width: 768px) {
     .logo {
         font-size: 42px;
