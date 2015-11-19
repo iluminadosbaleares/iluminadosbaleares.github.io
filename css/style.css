@@ -1296,3 +1296,18 @@ ul.social-icons li a {
         top: 0;
     }
 }*/
+
+/* Custom */
+#ayuda .row > div {
+    text-align: center;
+}
+
+#ayuda .row > div img {
+    -webkit-border-radius: 64px;
+    -moz-border-radius: 64px;
+    border-radius: 64px;
+}
+
+#ayuda .row > div p {
+    text-align: justify;
+}
