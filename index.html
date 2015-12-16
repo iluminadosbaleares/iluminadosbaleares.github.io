@@ -222,13 +222,13 @@
 						tu propio nivel. Puedes hackear todos los portales que veas, tanto amigos como enemigos.
 					</p>
 					<p>
-						Existe un tiempo de espera (cooldown) entre hacks en un mismo portal de 5 minutos,
-						y como máximo pueden realizarse 4 hacks cada 4 horas. Esto se puede variar
+						Existe un tiempo de espera (cooldown) entre hacks en un mismo portal de <b>5 minutos</b>,
+						y como máximo pueden realizarse <b>4 hacks</b> cada 4 horas. Esto se puede variar
 						<a href="#ayuda-mods">utilizando MODs</a>.
 					</p>
 					<p>
 						Puedes obtener más objetos manteniendo pulsado el botón <code>Hack Portal</code> a través
-						de un minijuego.
+						de un minijuego. Recuerda que sólo puedes utilizar objetos de hasta tu nivel de Agente ;).
 					</p>
 				</div>
 				<!--/col-sm-4-->
@@ -236,7 +236,7 @@
 			<!--/row-->
 
 			<div class="row">
-				<div class="col-sm-4 wow fadeInLeft animated">
+				<div id="ayuda-comm" class="col-sm-4 wow fadeInLeft animated">
 					<h2>¿Cómo funciona el chat (COMM)?</h2>
 					<img src="img/help/comm.png" height="128">
 					<p>
@@ -252,7 +252,7 @@
 					</p>
 				</div><!--/col-sm-4-->
 
-				<div class="col-sm-4 wow fadeInRight animated">
+				<div id="ayuda-normas" class="col-sm-4 wow fadeInRight animated">
 					<h2>¿Cuáles son las normas de Ingress?</h2>
 					<img src="img/help/normas.png" height="128">
 					<p>
@@ -274,50 +274,68 @@
 					</p>
 				</div><!--/col-sm-4-->
 
-				<div class="col-sm-4 wow fadeInLeft animated">
+				<div id="ayuda-destruir-portal" class="col-sm-4 wow fadeInLeft animated">
 					<h2>¿Cómo destruyo un portal enemigo?</h2>
 					<img src="img/help/xmp.png" height="128">
-					<p>A mysterious energy has been unearthed by a team of scientists in Europe.
-						The origin and purpose of this force is unknown, but some researchers believe it is
-						influencing the way we think. We must control it or it will control us.</p>
-					<p>“The Enlightened” seek to embrace the power that this energy may bestow upon us.
-						“The Resistance” struggle to defend, and protect what’s left of our humanity.</p>
-					<p>Install Ingress and transform your world.</p>
+					<p>
+						Mantén pulsado en algun punto vacío en Ingress para desplegar el menú rápido. Ahí puedes
+						seleccionar <code>Fire XMP</code>. Los XMP debilitan los Resonadores enemigos.
+					</p>
+					<p>
+						Truco: mantén pulsado sobre <code>Fire</code> para concentrar la energía ¡y obtener un bonus de
+						hasta el 20%! Intenta situarte en el centro de un portal para repartir la explosión, y muévete
+						a los últimos resonadores para destruir finalmente el portal.
+					</p>
+					<p>
+						Los <b>Ultra Strikes</b> son un tipo concentrado de <b>XMP</b>, especialmente eficaz para
+						destruir <b>MODs</b> cuando se usan cerca del centro de un portal.
+					</p>
+					<p>
+						No se recomienda empezar a destruir portales hasta el nivel 5 ó 6, ya que los <b>XMP</b> de
+						menor nivel no son muy efectivos. Si necesitas ayuda, <a href="home">¡pídenosla!</a>
+					</p>
 				</div><!--/col-sm-4-->
 			</div><!--/row-->
 
 			<div class="row">
-				<div class="col-sm-4 wow fadeInRight animated">
+				<div id="ayuda-enlazar-portales" class="col-sm-4 wow fadeInRight animated">
 					<h2>¿Cómo enlazo dos portales?</h2>
 					<img src="img/help/link.png" height="128">
-					<p>A mysterious energy has been unearthed by a team of scientists in Europe.
-						The origin and purpose of this force is unknown, but some researchers believe it is
-						influencing the way we think. We must control it or it will control us.</p>
-					<p>“The Enlightened” seek to embrace the power that this energy may bestow upon us.
-						“The Resistance” struggle to defend, and protect what’s left of our humanity.</p>
-					<p>Install Ingress and transform your world.</p>
+                    <p>
+                        Puedes enlazar dos portales (origen -> destino) si se cumplen los siguientes requisitos:
+                    </p>
+                    <ol>
+                        <li>Necesitas la <b>Portal Key</b> del destino (<a href="#ayuda-obtener-objetos">obtenla hackeando</a>).</li>
+                        <li>Ambos portales deben tener los <a href="#ayuda-capturar-portal">8 resonadores</a>.</li>
+                        <li><b>No puede haber otro enlace que corte</b> el que quieres hacer.</li>
+                        <li>El portal origen <b>no puede estar dentro</b> de un <a href="#ayuda-control-field">Control Field</a>.</li>
+                        <li>Un portal solo puede ser <b>origen de hasta 8 enlaces</b>.</li>
+                        <li>Un portal tiene una <b>distancia máxima</b> hasta donde enlazar según <a href="#ayuda-capturar-portal">nivel del portal</a> y <a href="ayuda-mods">MODs</a>.</li>
+                    </ol>
+					<p>¡Forma un <b>triángulo</b> para crear un <a href="#ayuda-control-field">Control Field</a>! Debido al punto 3, <b>evita hacer links largos</b> ;).</p>
 				</div><!--/col-sm-4-->
 
-				<div class="col-sm-4 wow fadeInRight animated">
-					<h2>¿Puedo crear un triángulo (Control Field)?</h2>
+				<div id="ayuda-control-field" class="col-sm-4 wow fadeInRight animated">
+					<h2>¿Cómo hago un Control Field?</h2>
 					<img src="img/help/field.png" height="128">
-					<p>A mysterious energy has been unearthed by a team of scientists in Europe.
-						The origin and purpose of this force is unknown, but some researchers believe it is
-						influencing the way we think. We must control it or it will control us.</p>
-					<p>“The Enlightened” seek to embrace the power that this energy may bestow upon us.
-						“The Resistance” struggle to defend, and protect what’s left of our humanity.</p>
-					<p>Install Ingress and transform your world.</p>
+					<p>Puedes crear un <b>Control Field</b> <a href="#ayuda-enlazar-portales">enlazando tres portales</a> en un triángulo.</p>
+                    <p>Esta acción es la que más <b>Action Points (AP)</b> otorga, ¡así podrás <a href="#ayuda-subir-nivel">subir fácilmente de nivel</a>!</p>
+                    <p>Utiliza los enlaces de otros Control Field para encadenarlos. Para <b>planear</b> qué puedes hacer, puedes utilizar el <a href="https://ingress.com/intel">mapa de Intel</a>.</p>
 				</div><!--/col-sm-4-->
 
-				<div class="col-sm-4 wow fadeInRight animated">
+				<div id="ayuda-mods" class="col-sm-4 wow fadeInRight animated">
 					<h2>¿Cómo funcionan los MODs?</h2>
 					<img src="img/help/shield.png" height="128">
-					<p>A mysterious energy has been unearthed by a team of scientists in Europe.
-						The origin and purpose of this force is unknown, but some researchers believe it is
-						influencing the way we think. We must control it or it will control us.</p>
-					<p>“The Enlightened” seek to embrace the power that this energy may bestow upon us.
-						“The Resistance” struggle to defend, and protect what’s left of our humanity.</p>
-					<p>Install Ingress and transform your world.</p>
+					<p>Los <b>MODs</b> modifican algunas características de los portales:</p>
+                    <ul>
+                        <li><b>Portal Shield</b>: aumenta la <b>resistencia</b> ante ataques. Tipos: <span class="common">C</span>, <span class="rare">R</span>, <span class="very-rare">VR</span>, <span class="very-rare">AXA</span>.</li>
+                        <li><b>Link Amp</b>: aumenta la <a href="#ayuda-enlazar-portales">distancia máxima de enlace</a>. Tipos: <span class="rare">R</span>, <span class="very-rare">VR</span>, <span class="very-rare">SoftBank</span>.</li>
+                        <li><b>Multi-Hack</b>: aumenta el <a href="#ayuda-obtener-objetos">número de hacks</a> que pueden hacerse en 4h. Tipos: <span class="common">C</span>, <span class="rare">R</span>, <span class="very-rare">VR</span></li>
+                        <li><b>Heat Sink</b>: reduce el <a href="#ayuda-obtener-objetos">tiempo de espera</a> entre hacks y reinicia el <b>contador de hacks</b> en 4h. Tipos: <span class="common">C</span>, <span class="rare">R</span>, <span class="very-rare">VR</span></li>
+                        <li><b>Force Amp</b>: aumenta la <b>potencia de ataque</b> del portal. Tipo: <span class="rare">R</span>.</li>
+                        <li><b>Turret</b>: aumenta la <b>frecuencia de ataque</b> del portal. Tipo: <span class="rare">R</span>.</li>
+                    </ul>
+					<p>La <b>rareza</b> de los objetos (<span class="common">Common</span>, <span class="rare">Rare</span> y <span class="very-rare">Very Rare</span>) está relacionada con su poder.</p>
 				</div><!--/col-sm-4-->
 			</div><!--/row-->
 		</div>

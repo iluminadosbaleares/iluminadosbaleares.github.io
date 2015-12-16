@@ -1306,9 +1306,12 @@ ul.social-icons li a {
     -webkit-border-radius: 64px;
     -moz-border-radius: 64px;
     border-radius: 64px;
+    margin: 0 0 10px;
 }
 
-#ayuda .row > div p {
+#ayuda .row > div p,
+#ayuda .row > div ul,
+#ayuda .row > div ol {
     text-align: justify;
 }
 
@@ -1316,19 +1319,43 @@ ul.social-icons li a {
     text-align: center;
 }
 
-#ayuda .row > div p a,
-#ayuda .row > div p a:visited { 
+#ayuda .row > div a,
+#ayuda .row > div a:visited {
     color: #33b77a;
     font-weight: bold;
 }
 
-#ayuda .row > div p a:hover,
-#ayuda .row > div p a:active,
-#ayuda .row > div p a:focus {
+#ayuda .row > div a:hover,
+#ayuda .row > div a:active,
+#ayuda .row > div a:focus {
     color: #406251;
 }
 
-#ayuda .row > div p code {
+#ayuda .row > div code {
     color: #195b3d;
     background-color: #ccedde;
+}
+
+#ayuda .row > div ul,
+#ayuda .row > div ol {
+    padding-left: 10px;
+}
+
+#ayuda .row > div ul li {
+    list-style: initial;
+}
+
+#ayuda .common {
+    font-weight: bold;
+    color: #93c47d;
+}
+
+#ayuda .rare {
+    font-weight: bold;
+    color: #674ea7;
+}
+
+#ayuda .very-rare {
+    font-weight: bold;
+    color: #e710e7;
 }
