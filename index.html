@@ -45,7 +45,9 @@
 <body id="home">
 
 	<!-- ****************************** Preloader ************************** -->
-	<div id="preloader"></div>
+	<div id="preloader">
+		<div class="logo"></div>
+	</div>
 
 
 	<!-- ****************************** Sidebar ************************** -->
@@ -57,7 +59,6 @@
 			<li><a href="#ayuda">Ayuda</a></li>
 		</ul>
 	</nav>
-
 
 	<!-- ****************************** Header ************************** -->
 	<header class="sticky" id="header">
@@ -116,26 +117,25 @@
 	<section id="que-es" class="block">
 		<div class="container">
 
+			<div class="title-box">
+				<h1 class="block-title wow animated zoomIn">
+					<span class="bb-top-left"></span>
+					<span class="bb-bottom-left"></span>
+					¿Qué es Ingress?
+					<span class="bb-top-right"></span>
+					<span class="bb-bottom-right"></span>
+				</h1>
+			</div>
+
 			<div class="row">
-				<div class="col-sm-6 wow fadeInLeft animated">
+				<div class="col-sm-3 col-sm-offset-2 wow fadeInLeft animated">
 					<div class="phone-image">
 						<img class="img-responsive" src="img/2-iphone-left.png" alt="">
 					</div>
 				</div>
 				<!--/col-sm-6-->
 
-				<div class="col-sm-6 wow fadeInRight animated">
-
-					<div class="title-box text-left">
-						<h1 class="block-title wow animated zoomIn">
-                            <span class="bb-top-left"></span>
-                            <span class="bb-bottom-left"></span>
-                            ¿Qué es Ingress?
-                            <span class="bb-top-right"></span>
-                            <span class="bb-bottom-right"></span>
-                        </h1>
-					</div>
-
+				<div class="col-sm-6 col-sm-offset-1 wow fadeInRight animated">
 					<div class="row">
 						<div class="col-md-12">
 							<p>Utiliza tu dispositivo móvil para hacerte con el control de la energía que se manifiesta en los <b>portales</b>: lugares
@@ -248,7 +248,7 @@
 					<p>
 						Nunca utilices el COMM para comentar cosas delicadas, ya que lo lee más gente de la que debiera.
 						Para ello, utiliza otras herramientas de comunicación privada, como <a href="#home">Telegram</a>
-						o <a href="home">Hangouts</a>.
+						o <a href="#home">Hangouts</a>.
 					</p>
 				</div><!--/col-sm-4-->
 
@@ -310,14 +310,14 @@
                         <li><b>No puede haber otro enlace que corte</b> el que quieres hacer.</li>
                         <li>El portal origen <b>no puede estar dentro</b> de un <a href="#ayuda-control-field">Control Field</a>.</li>
                         <li>Un portal solo puede ser <b>origen de hasta 8 enlaces</b>.</li>
-                        <li>Un portal tiene una <b>distancia máxima</b> hasta donde enlazar según <a href="#ayuda-capturar-portal">nivel del portal</a> y <a href="ayuda-mods">MODs</a>.</li>
+                        <li>Un portal tiene una <b>distancia máxima</b> hasta donde enlazar según <a href="#ayuda-capturar-portal">nivel del portal</a> y <a href="#ayuda-mods">MODs</a>.</li>
                     </ol>
 					<p>¡Forma un <b>triángulo</b> para crear un <a href="#ayuda-control-field">Control Field</a>! Debido al punto 3, <b>evita hacer links largos</b> ;).</p>
 				</div><!--/col-sm-4-->
 
 				<div id="ayuda-control-field" class="col-sm-4 wow fadeInRight animated">
 					<h2>¿Cómo hago un Control Field?</h2>
-					<img src="img/help/field.png" height="128">
+					<img src="img/help/field.jpg" height="128">
 					<p>Puedes crear un <b>Control Field</b> <a href="#ayuda-enlazar-portales">enlazando tres portales</a> en un triángulo.</p>
                     <p>Esta acción es la que más <b>Action Points (AP)</b> otorga, ¡así podrás <a href="#ayuda-subir-nivel">subir fácilmente de nivel</a>!</p>
                     <p>Utiliza los enlaces de otros Control Field para encadenarlos. Para <b>planear</b> qué puedes hacer, puedes utilizar el <a href="https://ingress.com/intel">mapa de Intel</a>.</p>
@@ -357,7 +357,6 @@
 				<div class="credits">
 					Theme by <a href="http://www.themewagon.com" target="_blank">ThemeWagon</a>
 				</div>
-				<div class="credits">Fork this on <a href="http://github.com/iluminadosbaleares"><i class="ion-social-github"></i> GitHub !</a> <i class="ion-heart"></i></div>
 			</div>
 		</div>
 		<!-- container -->
